@@ -13,7 +13,7 @@
 				"pretty_name": "Type"
 			}, {
 				"name": "pages",
-				"type": "textarea",
+				"type": "array",
 				"default": ["test", "test"],
 				"description": "Each element in the array is the content for a single page.",
 				"pretty_name": "Pages"
@@ -112,7 +112,7 @@
 			}, {
 				"name": "choices",
 				"type": "array",
-				"default": "Happy",
+				"default": ["Happy, "Sad"],
 				"description": "An array of labels for the buttons",
 				"pretty_name": "Choices"
 			}, {
