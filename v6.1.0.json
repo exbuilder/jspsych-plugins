@@ -112,7 +112,7 @@
 			}, {
 				"name": "choices",
 				"type": "array",
-				"default": ["Happy, "Sad"],
+				"default": ["Happy", "Sad"],
 				"description": "An array of labels for the buttons",
 				"pretty_name": "Choices"
 			}, {
