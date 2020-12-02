@@ -5,68 +5,68 @@
 			"name": "",
 			"description": "If checked, then trial will end when subject responds",
 			"docs": "html/link/to/jsPsych/docs",
-			"parameters": 
-				[{
-	"name": "type",
-	"type": "string",
-	"default": "instructions",
-	"description": "",
-	"pretty_name": "Type"
-}, {
-	"name": "pages",
-	"type": "textarea",
-	"default": ["test", "test"],
-	"description": "Each element in the array is the content for a single page.",
-	"pretty_name": "Pages"
-}, {
-	"name": "button_label_previous",
-	"type": "string",
-	"default": "Previous",
-	"description": "The text that appears on the button to go backwards",
-	"pretty_name": "Button label previous"
-}, {
-	"name": "button_label_next",
-	"type": "string",
-	"default": "Next",
-	"description": "The text that appears on the button to go forwards",
-	"pretty_name": "Button label next"
-}, {
-	"name": "key_forward",
-	"type": "string",
-	"default": "rightarrow",
-	"description": "The key that the subject can press to advance to the next page.",
-	"pretty_name": "Key forward"
-}, {
-	"name": "key_backward",
-	"type": "string",
-	"default": "leftarrow",
-	"description": "The key that the subject can press to return to the previous page.",
-	"pretty_name": "Key backward"
-}, {
-	"name": "allow_backward",
-	"type": "boolean",
-	"default": true,
-	"description": "If checked, the subject can return to the previous page of the instructions",
-	"pretty_name": "Allow backward"
-}, {
-	"name": "allow_keys",
-	"type": "boolean",
-	"default": true,
-	"description": "If checked, the subject can use keyboard keys to navigate the pages.",
-	"pretty_name": "Allow keys"
-}, {
-	"name": "show_clickable_nav",
-	"type": "boolean",
-	"default": true,
-	"description": "If checked, If checked, then a Previous and Next button will be displayed beneath the instructions.",
-	"pretty_name": "Show clickable nav"
-}, {
-	"name": "show_page_number",
-	"type": "boolean",
-	"default": false,
-	"description": "If checked, and clickable navigation is enabled, then a Page x/y will be shown before the nave buttons",
-	"pretty_name": "Show page number"
-}]}
+			"parameters": [{
+				"name": "type",
+				"type": "string",
+				"default": "instructions",
+				"description": "",
+				"pretty_name": "Type"
+			}, {
+				"name": "pages",
+				"type": "textarea",
+				"default": ["test", "test"],
+				"description": "Each element in the array is the content for a single page.",
+				"pretty_name": "Pages"
+			}, {
+				"name": "button_label_previous",
+				"type": "string",
+				"default": "Previous",
+				"description": "The text that appears on the button to go backwards",
+				"pretty_name": "Button label previous"
+			}, {
+				"name": "button_label_next",
+				"type": "string",
+				"default": "Next",
+				"description": "The text that appears on the button to go forwards",
+				"pretty_name": "Button label next"
+			}, {
+				"name": "key_forward",
+				"type": "string",
+				"default": "rightarrow",
+				"description": "The key that the subject can press to advance to the next page.",
+				"pretty_name": "Key forward"
+			}, {
+				"name": "key_backward",
+				"type": "string",
+				"default": "leftarrow",
+				"description": "The key that the subject can press to return to the previous page.",
+				"pretty_name": "Key backward"
+			}, {
+				"name": "allow_backward",
+				"type": "boolean",
+				"default": true,
+				"description": "If checked, the subject can return to the previous page of the instructions",
+				"pretty_name": "Allow backward"
+			}, {
+				"name": "allow_keys",
+				"type": "boolean",
+				"default": true,
+				"description": "If checked, the subject can use keyboard keys to navigate the pages.",
+				"pretty_name": "Allow keys"
+			}, {
+				"name": "show_clickable_nav",
+				"type": "boolean",
+				"default": true,
+				"description": "If checked, If checked, then a Previous and Next button will be displayed beneath the instructions.",
+				"pretty_name": "Show clickable nav"
+			}, {
+				"name": "show_page_number",
+				"type": "boolean",
+				"default": false,
+				"description": "If checked, and clickable navigation is enabled, then a Page x/y will be shown before the nave buttons",
+				"pretty_name": "Show page number"
+			}]
+		},
 		"jspsych-image-button-response": {
 			"name": "",
 			"description": "If checked, then trial will end when subject responds",
@@ -143,5 +143,3 @@
 		}
 	}
 }
-  
-    
