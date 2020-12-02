@@ -2,7 +2,7 @@
 	"jspsych-release": "v6.1.0",
 	"plugins": {
 		"jspsych-instructions": {
-			"name": "",
+			"name": "jspsych-instructions",
 			"description": "If checked, then trial will end when subject responds",
 			"docs": "html/link/to/jsPsych/docs",
 			"parameters": [{
@@ -68,7 +68,7 @@
 			}]
 		},
 		"jspsych-image-button-response": {
-			"name": "",
+			"name": "jspsych-image-button-response",
 			"description": "If checked, then trial will end when subject responds",
 			"docs": "html/link/to/jsPsych/docs",
 			"parameters": [{
