@@ -1,0 +1,155 @@
+{
+	"jspsych-release": "v6.1.0",
+	"plugins": {
+		"jspsych-instructions": {
+			"name": "",
+			"description": "If checked, then trial will end when subject responds",
+			"docs": "html/link/to/jsPsych/docs",
+			"parameters": [{
+				"name": "type",
+				"type": "string",
+				"default": "image-button-response",
+				"description": "",
+				"pretty_name": "Type"
+			}, {
+				"name": "stimulus",
+				"type": "string",
+				"default": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/0d/aa/cb/0daacb6c-5c70-b080-0baf-2424b1644a4b/source/512x512bb.jpg",
+				"description": "The image to be displayed",
+				"pretty_name": "Stimulus"
+			}, {
+				"name": "stimulus_height",
+				"type": "string",
+				"append": "px",
+				"default": 200,
+				"description": "Set the image height in pixels",
+				"pretty_name": "Image height"
+			}, {
+				"name": "stimulus_width",
+				"type": "string",
+				"append": "px",
+				"default": 200,
+				"description": "Set the image width in pixels",
+				"pretty_name": "Image width"
+			}, {
+				"name": "maintain_aspect_ratio",
+				"type": "boolean",
+				"default": true,
+				"description": "Maintain the aspect ratio after setting width or height",
+				"pretty_name": "Maintain aspect ratio"
+			}, {
+				"name": "prompt",
+				"type": "string",
+				"default": "<p>Is this apple happy or sad?</p>",
+				"description": "Any content here will be displayed under the buttons",
+				"pretty_name": "Prompt"
+			}, {
+				"name": "choices",
+				"type": "array",
+				"default": "Happy",
+				"description": "An array of labels for the buttons",
+				"pretty_name": "Choices"
+			}, {
+				"name": "button_html",
+				"type": "textarea",
+				"default": "<button class='jspsych-btn'>%choice%</button>",
+				"description": "The html of the button. Usually used to style the button.",
+				"pretty_name": "Button html"
+			}, {
+				"name": "stimulus_duration",
+				"type": "string",
+				"default": null,
+				"description": "How long to hide the stimulus",
+				"pretty_name": "Stimulus duration"
+			}, {
+				"name": "trial_duration",
+				"type": "string",
+				"default": null,
+				"description": "How long to show the trial",
+				"pretty_name": "Trial duration"
+			}, {
+				"name": "response_ends_trial",
+				"type": "boolean",
+				"default": true,
+				"description": "If checked, then trial will end when subject responds",
+				"pretty_name": "Response ends trial"
+			}]
+		},
+		"jspsych-image-button-response": {
+			"name": "",
+			"description": "If checked, then trial will end when subject responds",
+			"docs": "html/link/to/jsPsych/docs",
+			"parameters": [{
+				"name": "type",
+				"type": "string",
+				"default": "image-button-response",
+				"description": "",
+				"pretty_name": "Type"
+			}, {
+				"name": "stimulus",
+				"type": "string",
+				"default": "https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/0d/aa/cb/0daacb6c-5c70-b080-0baf-2424b1644a4b/source/512x512bb.jpg",
+				"description": "The image to be displayed",
+				"pretty_name": "Stimulus"
+			}, {
+				"name": "stimulus_height",
+				"type": "string",
+				"append": "px",
+				"default": 200,
+				"description": "Set the image height in pixels",
+				"pretty_name": "Image height"
+			}, {
+				"name": "stimulus_width",
+				"type": "string",
+				"append": "px",
+				"default": 200,
+				"description": "Set the image width in pixels",
+				"pretty_name": "Image width"
+			}, {
+				"name": "maintain_aspect_ratio",
+				"type": "boolean",
+				"default": true,
+				"description": "Maintain the aspect ratio after setting width or height",
+				"pretty_name": "Maintain aspect ratio"
+			}, {
+				"name": "prompt",
+				"type": "string",
+				"default": "<p>Is this apple happy or sad?</p>",
+				"description": "Any content here will be displayed under the buttons",
+				"pretty_name": "Prompt"
+			}, {
+				"name": "choices",
+				"type": "array",
+				"default": "Happy",
+				"description": "An array of labels for the buttons",
+				"pretty_name": "Choices"
+			}, {
+				"name": "button_html",
+				"type": "textarea",
+				"default": "<button class='jspsych-btn'>%choice%</button>",
+				"description": "The html of the button. Usually used to style the button.",
+				"pretty_name": "Button html"
+			}, {
+				"name": "stimulus_duration",
+				"type": "string",
+				"default": null,
+				"description": "How long to hide the stimulus",
+				"pretty_name": "Stimulus duration"
+			}, {
+				"name": "trial_duration",
+				"type": "string",
+				"default": null,
+				"description": "How long to show the trial",
+				"pretty_name": "Trial duration"
+			}, {
+				"name": "response_ends_trial",
+				"type": "boolean",
+				"default": true,
+				"description": "If checked, then trial will end when subject responds",
+				"pretty_name": "Response ends trial"
+			}]
+		}
+	}
+}
+  
+    
